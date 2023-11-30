@@ -17,7 +17,7 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(88, 255, 236, 179),
+      backgroundColor: Color.fromARGB(68, 255, 236, 179),
       appBar: AppBar(
         title: Text('Book List',
         style: TextStyle(fontSize: 24)),
