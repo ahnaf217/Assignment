@@ -20,7 +20,7 @@ class FirstPage extends StatelessWidget {
       backgroundColor: Color.fromARGB(88, 255, 236, 179),
       appBar: AppBar(
         title: Text('Book List',
-        style: TextStyle(fontSize: 22)),
+        style: TextStyle(fontSize: 24)),
         centerTitle: true,
         backgroundColor: Color.fromARGB(235, 102, 255, 0),
       ),
