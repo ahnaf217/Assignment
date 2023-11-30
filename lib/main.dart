@@ -130,7 +130,7 @@ class CardWidget extends StatelessWidget {
               );
             },
             icon: Icon(Icons.shopping_basket),
-            label: Text('Buy Now', style : TextStyle(color: Colors.amberAccent)),
+            label: Text('Buy Now', style : TextStyle(color: const Color.fromARGB(255, 240, 196, 38))),
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(Color.fromARGB(255, 58, 141, 90)),
             ),
