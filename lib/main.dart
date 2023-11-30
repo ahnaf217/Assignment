@@ -62,7 +62,7 @@ class SecondPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text('Book Name: $bookName\n',
-            style: TextStyle(fontSize: 20),),
+            style: TextStyle(fontSize: 22),),
             Image.asset('assets/$imageName'), 
             Text('\nAuthor Name: $authorName'), 
             Text('\nShort Description: $description'),
@@ -130,7 +130,7 @@ class CardWidget extends StatelessWidget {
               );
             },
             icon: Icon(Icons.shopping_basket),
-            label: Text('Buy Now', style : TextStyle(color: Colors.amberAccent)),
+            label: Text('Buy Now', style : TextStyle(color: const Color.fromARGB(255, 240, 196, 38))),
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(Color.fromARGB(255, 58, 141, 90)),
             ),
