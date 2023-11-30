@@ -62,7 +62,7 @@ class SecondPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text('Book Name: $bookName\n',
-            style: TextStyle(fontSize: 20),),
+            style: TextStyle(fontSize: 22),),
             Image.asset('assets/$imageName'), 
             Text('\nAuthor Name: $authorName'), 
             Text('\nShort Description: $description'),
